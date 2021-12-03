@@ -31,7 +31,7 @@ export default function Navbar() {
     } else {
       return (
         <MoonIcon
-          className="w-6 h-6 transform rotate-180 transition-all hover:rotate-0"
+          className="w-6 h-6"
           role="button"
           onClick={() => setTheme("dark")}
         />
@@ -71,7 +71,7 @@ export default function Navbar() {
                 <div className="hidden sm:block">
                   <ul className="flex">
                     <li className="px-4 hover:text-red-400">
-                      <Link href="#">Projects</Link>
+                      <Link href="#Project">Projects</Link>
                     </li>
                     <li className="px-4 hover:text-red-400">
                       <Link href="#">Profile</Link>
@@ -91,7 +91,7 @@ export default function Navbar() {
       >
         <ul className="">
           <li className="px-4">
-            <Link href="#">Projects</Link>
+            <Link href="#Project">Projects</Link>
           </li>
           <li className="px-4">
             <Link href="#">Profile</Link>

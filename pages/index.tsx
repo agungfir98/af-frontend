@@ -3,6 +3,8 @@ import Head from "next/head";
 
 import Navbar from "./navbar/navbar";
 import Main from "./component/main";
+import Skill from "./component/skill";
+import Projects from "./projects";
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +21,8 @@ const Home: NextPage = () => {
       <main className="bg-white-wdew transisition duration-700 dark:bg-gray-700 font-poppins w-full ">
         <Navbar />
         <Main />
+        <Projects />
+        <Skill />
       </main>
     </>
   );

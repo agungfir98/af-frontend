@@ -1,0 +1,16 @@
+{
+    "Project": [
+        {
+            "title": "Tokopedia Price Checker",
+            "desc": "This project are written in python using BeautifulSoup to parse html, and smtplib to send an email about the targeted product. The goal of this project is to frequently check the targeted product from particular seller to see if the price match to user desire so that the program could inform user via email when the product prices are as expected.",
+            "platform": "github",
+            "url": "https://github.com/agungfir98/TokopediaPriceChecker"
+        },
+        {
+            "title": "ExerciseTracker",
+            "desc": "A simple project to track user exercise record.",
+            "platform": "Link",
+            "url": ""
+        }
+    ]
+}

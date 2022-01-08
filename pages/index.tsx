@@ -5,6 +5,7 @@ import Navbar from "./navbar/navbar";
 import Main from "./component/main";
 import Skill from "./component/skill";
 import Projects from "./component/projects";
+import Footer from "./component/footer";
 
 const Home: NextPage = () => {
   return (
@@ -18,11 +19,12 @@ const Home: NextPage = () => {
         ></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white-wdew transisition duration-700 dark:bg-gray-700 font-poppins w-full ">
+      <main className="bg-white-wdew transisition duration-700 dark:bg-gray-700 font-poppins w-full">
         <Navbar />
         <Main />
         <Projects />
         <Skill />
+        <Footer name="Agung Firmansyah" />
       </main>
     </>
   );

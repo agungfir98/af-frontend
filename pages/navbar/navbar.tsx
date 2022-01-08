@@ -41,7 +41,7 @@ export default function Navbar() {
 
   return (
     <header>
-      <div className="fixed backdrop-filter backdrop-blur-sm font-poppins w-full">
+      <div className="fixed backdrop-filter backdrop-blur-sm font-poppins w-full z-50">
         <div className="">
           <nav className="flex container lg:px-32 md:px-16 px-4 mx-auto items-center h-16 justify-between font-semibold ">
             <div className="px-4 hover:text-red-400">
@@ -71,7 +71,7 @@ export default function Navbar() {
                 <div className="hidden sm:block">
                   <ul className="flex">
                     <li className="px-4 hover:text-red-400">
-                      <Link href="#Project">Projects</Link>
+                      <Link href="#projects">Projects</Link>
                     </li>
                     <li className="px-4 hover:text-red-400">
                       <Link href="#">Profile</Link>

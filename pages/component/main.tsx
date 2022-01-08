@@ -4,13 +4,15 @@ import {
   faGithubAlt,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
+import ParticleBg from "./particleBg";
 
 import Link from "next/link";
 
 export default function Main() {
   return (
     <>
-      <div className="pt-20 h-screen">
+      <ParticleBg />
+      <div className="relative pt-20 h-screen">
         <div className="container lg:px-32 md:px-16 px-4 mx-auto sm:mt-20 mt-32 text-center md:text-left">
           <h1 className="font-bebas px-4 xl:text-9xl  md:text-8xl text-7xl text-white-imperial">
             AGUNG <br /> FIRMANSYAH
@@ -19,7 +21,7 @@ export default function Main() {
             an aspiring web developer fresh graduate
           </p>
         </div>
-        {/* ================================================================= */}
+        {/* ============================ LOGO SOCIAL MEDIA ===================================== */}
         <div className="pt-20">
           <div className="flex container lg:px-32 md:px-16 mx-auto justify-center md:justify-start">
             <div className="flex px-2">
@@ -53,6 +55,7 @@ export default function Main() {
             </div>
           </div>
         </div>
+        {/* ============================ END LOGO SOCIAL MEDIA ===================================== */}
       </div>
     </>
   );

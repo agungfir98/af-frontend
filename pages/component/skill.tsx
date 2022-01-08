@@ -23,5 +23,5 @@ const array = [
 ];
 
 export default function Skill() {
-  return <div className="h-screen"></div>;
+  return <div className="h-50 my-20"></div>;
 }

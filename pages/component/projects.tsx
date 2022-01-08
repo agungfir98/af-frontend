@@ -4,8 +4,8 @@ import { ExternalLinkIcon } from "@heroicons/react/outline";
 export default function Projects() {
   const data = project.Project;
   return (
-    <div id="Project">
-      <div className="sm:pt-20 pt-16 container lg:px-32 md:px-16 px-4 mx-auto sm:mt-20 md:text-left">
+    <div id="projects">
+      <div className="sm:pt-20 pt-16 container lg:px-32 md:px-16 px-4 mx-auto md:text-left">
         <h1 className=" text-2xl sm:text-5xl font-bold">Projects</h1>
         <div className="py-4">
           {data.map((res) => {

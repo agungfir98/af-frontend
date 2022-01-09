@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         ></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white-wdew transisition duration-700 dark:bg-gray-700 font-poppins w-full">
+      <main className="bg-white-wdew transisition duration-700 dark:bg-gray-700 font-poppins w-full relative">
         <Navbar />
         <Main />
         <Projects />

@@ -5,11 +5,9 @@ import Particles from "react-tsparticles";
 
 export default function ParticleBg() {
   const configParticlesDark: {} = {
-    canvasClassName: "-z-10 d",
     style: {
       position: "absolute",
       height: "100vh",
-      index: "-1",
     },
     particles: {
       number: {
@@ -121,11 +119,9 @@ export default function ParticleBg() {
     retina_detect: false,
   };
   const configParticlesLight: {} = {
-    canvasClassName: "-z-10 d",
     style: {
       position: "absolute",
       height: "100vh",
-      index: "-1",
     },
     particles: {
       number: {

@@ -8,3 +8,6 @@ body {
   padding: 0;
   margin: 0;
 }
+.esvege:hover {
+  fill: #e63946 !important;
+}

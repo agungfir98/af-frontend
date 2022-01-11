@@ -8,7 +8,7 @@ export default function Skill() {
       <div className="grid grid-cols-5 gap-4">
         <div className="1 col-span-5">
           <p className="mt-20 mb-5 text-gray-500 dark:text-gray-200 px-4 tracking-wider text-center">
-            MarkUp & Scripting language:
+            MarkUp & Scripting languages:
           </p>
           <div className="grid grid-cols-3 md:grid-cols-5 place-items-center gap-y-20">
             {/* html */}
@@ -96,7 +96,7 @@ export default function Skill() {
         {/* DB */}
         <div className="2 col-span-5 md:col-span-2">
           <p className="mt-16 mb-5 text-center text-gray-500 dark:text-gray-200 px-4 tracking-wider">
-            Database:
+            Databases:
           </p>
           <div className="grid grid-cols-2 md:grid-cols-2 place-items-center">
             {/* mysql */}
@@ -191,7 +191,7 @@ export default function Skill() {
         </div>
         <div className="5 col-span-5 md:col-span-1">
           <p className="mt-16 mb-5 text-center text-gray-500 dark:text-gray-200 px-4 tracking-wider">
-            Version Controll:
+            Version Control:
           </p>
           <div className="px-4 grid grid-cols-1 md:grid-cols-1 place-items-center gap-y-20">
             {/* Git */}

@@ -94,7 +94,7 @@ export default function Skill() {
           </div>
         </div>
         {/* DB */}
-        <div className="2 col-span-5 md:col-span-2">
+        <div className="2 col-span-5 md:col-span-5 lg:col-span-2">
           <p className="mt-16 mb-5 text-center text-gray-500 dark:text-gray-200 px-4 tracking-wider">
             Databases:
           </p>
@@ -140,7 +140,7 @@ export default function Skill() {
             </svg>
           </div>
         </div>
-        <div className="3 col-span-5 md:col-span-1">
+        <div className="3 col-span-5 md:col-start-1 md:col-end-3 lg:col-span-1">
           <p className="mt-16 mb-5 text-center text-gray-500 dark:text-gray-200 px-4 tracking-wider">
             Front End Framework:
           </p>
@@ -167,7 +167,7 @@ export default function Skill() {
             </svg>
           </div>
         </div>
-        <div className="4 col-span-5 md:col-span-1">
+        <div className="4 col-span-5 md:col-start-4 md:col-end-6 md:col-span-2 lg:col-span-1">
           <p className="mt-16 mb-5 text-center text-gray-500 dark:text-gray-200 px-4 tracking-wider">
             Javascript Runtime:
           </p>
@@ -189,7 +189,7 @@ export default function Skill() {
             </svg>
           </div>
         </div>
-        <div className="5 col-span-5 md:col-span-1">
+        <div className="5 col-span-5 md:col-span-5 lg:col-span-1">
           <p className="mt-16 mb-5 text-center text-gray-500 dark:text-gray-200 px-4 tracking-wider">
             Version Control:
           </p>

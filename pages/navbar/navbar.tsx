@@ -87,16 +87,18 @@ export default function Navbar() {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } fixed top-16 right-8 text-white sm:hidden opacity-80 backdrop-filter backdrop-blur-sm font-poppins font-semibold`}
+        } fixed z-40 top-16 right-8 text-white sm:hidden opacity-80 backdrop-filter backdrop-blur-sm font-poppins font-semibold`}
       >
-        <ul className="">
-          <li className="px-4">
-            <Link href="#Project">Projects</Link>
-          </li>
-          <li className="px-4">
-            <Link href="#">Profile</Link>
-          </li>
-        </ul>
+        <div className="relative">
+          <ul className="relative">
+            <li className="px-4">
+              <Link href="#projects">Projects</Link>
+            </li>
+            <li className="px-4">
+              <Link href="#skills">Skills</Link>
+            </li>
+          </ul>
+        </div>
       </div>
       {/* ====================== Mobile Nav =================== */}
     </header>

@@ -1,7 +1,10 @@
 export default function Skill() {
   return (
-    <div className="relative my-20 sm:pt-20 pt-16 container lg:px-32 md:px-16 px-4 mx-auto md:text-left">
-      <div className="text-gray-800 dark:text-white-wdew text-2xl sm:text-5xl font-bold">
+    <div
+      className="relative my-20 sm:pt-20 pt-16 container lg:px-32 md:px-16 px-4 mx-auto md:text-left"
+      id="skills"
+    >
+      <div className="text-gray-800 dark:text-white-wdew text-2xl sm:text-4xl font-bold">
         Skills
       </div>
 

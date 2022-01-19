@@ -8,9 +8,15 @@
         },
         {
             "title": "ExerciseTracker",
-            "desc": "A simple project to track user exercise record.",
+            "desc": "A project to track user exercise record, add user, add exercise, see all users, logs and querying logs based on date and limit numbers of data to be displayed.",
             "platform": "Link",
             "url": "https://agungexercisetracker.herokuapp.com"
+        },
+        {
+            "title": "Warmindo CRUD App",
+            "desc": "A project to store food into database where user can store food, stock, description, price",
+            "platform": "github",
+            "url": "https://github.com/agungfir98/mySQLCRUD.git"
         }
     ]
 }

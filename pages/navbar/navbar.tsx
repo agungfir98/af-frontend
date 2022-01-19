@@ -74,7 +74,7 @@ export default function Navbar() {
                       <Link href="#projects">Projects</Link>
                     </li>
                     <li className="px-4 hover:text-red-400">
-                      <Link href="#">Profile</Link>
+                      <Link href="#skills">Skills</Link>
                     </li>
                   </ul>
                 </div>

@@ -3,6 +3,7 @@ import {
   faTwitter,
   faGithubAlt,
   faLinkedinIn,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import ParticleBg from "./particleBg";
 
@@ -48,6 +49,15 @@ export default function Main() {
                   <FontAwesomeIcon
                     className="text-gray-600 hover:text-red-400 dark:text-gray-400 dark:hover:text-red-400"
                     icon={faLinkedinIn}
+                    style={{ width: "25px", height: "25px" }}
+                  />
+                </a>
+              </Link>
+              <Link href="https://wa.me/085156338968?text=Halo%20Agung%20👋">
+                <a target="_blank" className="px-3 md:px-2">
+                  <FontAwesomeIcon
+                    className="text-gray-600 hover:text-red-400 dark:text-gray-400 dark:hover:text-red-400"
+                    icon={faWhatsapp}
                     style={{ width: "25px", height: "25px" }}
                   />
                 </a>

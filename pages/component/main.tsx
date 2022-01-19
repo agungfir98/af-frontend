@@ -53,7 +53,7 @@ export default function Main() {
                   />
                 </a>
               </Link>
-              <Link href="https://wa.me/085156338968?text=Halo%20Agung%20👋">
+              <Link href="https://wa.me/6285156338968?text=Halo%20Agung%20👋">
                 <a target="_blank" className="px-3 md:px-2">
                   <FontAwesomeIcon
                     className="text-gray-600 hover:text-red-400 dark:text-gray-400 dark:hover:text-red-400"

@@ -18,7 +18,7 @@ export default function Main() {
             AGUNG <br /> FIRMANSYAH
           </h1>
           <p className="text-gray-500 dark:text-gray-200 px-4 tracking-wider">
-            an aspiring web developer fresh graduate
+            an aspiring software engineer
           </p>
         </div>
         {/* ============================ LOGO SOCIAL MEDIA ===================================== */}

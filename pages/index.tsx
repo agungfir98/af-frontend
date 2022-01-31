@@ -14,6 +14,10 @@ const Home: NextPage = () => {
         <title>Agung Firmansyah</title>
         <meta name="description" content="Agung's portofolio website" />
         <meta
+          name="google-site-verification"
+          content="p8ibS5xrc9VaOO8OrevBYujLOGsw35Uf0VMzyIMQAR4"
+        />
+        <meta
           name="keywords"
           content="fullstack web developer, software engineer, Agung Firmansyah, Purbalingga, Web Developer, Javascript, React, Node JS, Go, Python, Indonesia"
         />

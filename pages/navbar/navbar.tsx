@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { SunIcon, MoonIcon } from "@heroicons/react/outline";
+import { ExternalLinkIcon } from "@heroicons/react/outline";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -76,6 +77,16 @@ export default function Navbar() {
                     <li className="px-4 hover:text-red-400">
                       <Link href="#skills">Skills</Link>
                     </li>
+                    <li className="px-4 hover:text-red-400 flex">
+                      <a
+                        target={"_blank"}
+                        rel="noreferrer"
+                        href="https://drive.google.com/file/d/1xPxBpOgB0Gs6IuD9NBBmsFoeaELRxdsF/view"
+                      >
+                        Resume
+                      </a>
+                      <ExternalLinkIcon className="h-3 w-3" />
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -96,6 +107,11 @@ export default function Navbar() {
             </li>
             <li className="px-4">
               <Link href="#skills">Skills</Link>
+            </li>
+            <li className="px-4">
+              <Link href="https://drive.google.com/file/d/1xPxBpOgB0Gs6IuD9NBBmsFoeaELRxdsF/view">
+                Resume
+              </Link>
             </li>
           </ul>
         </div>

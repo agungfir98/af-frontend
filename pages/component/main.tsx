@@ -20,6 +20,7 @@ export default function Main() {
           </h1>
           <p className="text-gray-500 dark:text-gray-200 px-4 tracking-wider">
             an aspiring software engineer
+            {/* Full Stack Web Developer. */}
           </p>
         </div>
         {/* ============================ LOGO SOCIAL MEDIA ===================================== */}

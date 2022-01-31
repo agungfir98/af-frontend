@@ -14,9 +14,14 @@ const Home: NextPage = () => {
         <title>Agung Firmansyah</title>
         <meta name="description" content="Agung's portofolio website" />
         <meta
+          name="keywords"
+          content="fullstack web developer, software engineer, Agung Firmansyah, Purbalingga, Web Developer, Javascript, React, Node JS, Go, Python, Indonesia"
+        />
+        <meta
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
+        <meta name="author" content="Agung Firmansyah" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white-wdew transisition duration-700 dark:bg-gray-700 font-poppins w-full relative">

@@ -28,7 +28,7 @@ export default function Main() {
           <div className="flex container lg:px-32 md:px-16 mx-auto justify-center md:justify-start">
             <div className="flex px-2">
               <Link href="https://github.com/agungfir98">
-                <a target="_blank" className="px-3 md:px-2">
+                <a target="_blank" rel="noreferrer" className="px-3 md:px-2">
                   <FontAwesomeIcon
                     className="text-gray-600 hover:text-red-400 dark:text-gray-400 dark:hover:text-red-400"
                     icon={faGithubAlt}
@@ -37,7 +37,7 @@ export default function Main() {
                 </a>
               </Link>
               <Link href="https://twitter.com/agung_firm">
-                <a target="_blank" className="px-3 md:px-2">
+                <a target="_blank" rel="noreferrer" className="px-3 md:px-2">
                   <FontAwesomeIcon
                     className="text-gray-600 hover:text-red-400 dark:text-gray-400 dark:hover:text-red-400"
                     icon={faTwitter}
@@ -46,7 +46,7 @@ export default function Main() {
                 </a>
               </Link>
               <Link href="https://www.linkedin.com/in/agung-firmansyah-76a8b819a/">
-                <a target="_blank" className="px-3 md:px-2">
+                <a target="_blank" rel="noreferrer" className="px-3 md:px-2">
                   <FontAwesomeIcon
                     className="text-gray-600 hover:text-red-400 dark:text-gray-400 dark:hover:text-red-400"
                     icon={faLinkedinIn}
@@ -55,7 +55,7 @@ export default function Main() {
                 </a>
               </Link>
               <Link href="https://wa.me/6285156338968?text=Halo%20Agung%20👋">
-                <a target="_blank" className="px-3 md:px-2">
+                <a target="_blank" rel="noreferrer" className="px-3 md:px-2">
                   <FontAwesomeIcon
                     className="text-gray-600 hover:text-red-400 dark:text-gray-400 dark:hover:text-red-400"
                     icon={faWhatsapp}

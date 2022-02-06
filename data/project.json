@@ -17,6 +17,12 @@
             "desc": "A project to store food into database where user can store food, stock, description, price",
             "platform": "github",
             "url": "https://github.com/agungfir98/mySQLCRUD.git"
+        },
+        {
+            "title": "Meta Data Reader",
+            "desc": "an app to read a meta data of a file uploaded.",
+            "platform": "Link",
+            "url": "https://metadatafilee.herokuapp.com/"
         }
     ]
 }

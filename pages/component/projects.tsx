@@ -18,7 +18,9 @@ export default function Projects() {
                 </h1>
                 <a
                   href={res.url}
+                  target="_blank"
                   className="w-32 flex px-8 text-md pt-1 text-red-500"
+                  rel="noreferrer"
                 >
                   {res.platform}
                   <ExternalLinkIcon className="h-3 w-3" />
